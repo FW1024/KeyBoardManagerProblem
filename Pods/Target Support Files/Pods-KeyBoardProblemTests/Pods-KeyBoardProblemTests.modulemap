@@ -1,0 +1,6 @@
+framework module Pods_KeyBoardProblemTests {
+  umbrella header "Pods-KeyBoardProblemTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

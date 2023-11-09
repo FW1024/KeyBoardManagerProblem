@@ -16,6 +16,12 @@
 		25B9A5922AFCDB450090C052 /* KeyBoardProblemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A5912AFCDB450090C052 /* KeyBoardProblemTests.swift */; };
 		25B9A59C2AFCDB450090C052 /* KeyBoardProblemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A59B2AFCDB450090C052 /* KeyBoardProblemUITests.swift */; };
 		25B9A59E2AFCDB450090C052 /* KeyBoardProblemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A59D2AFCDB450090C052 /* KeyBoardProblemUITestsLaunchTests.swift */; };
+		25B9A5AB2AFCDC790090C052 /* TSStackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A5AA2AFCDC790090C052 /* TSStackViewCell.swift */; };
+		25B9A5AD2AFCDC8D0090C052 /* TSNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A5AC2AFCDC8D0090C052 /* TSNormalCell.swift */; };
+		25B9A5AF2AFCDCA20090C052 /* TSEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B9A5AE2AFCDCA20090C052 /* TSEmptyCell.swift */; };
+		27B96856E745BE6AF4635555 /* Pods_KeyBoardProblemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E82EEE94EF7A32D2A3FA5 /* Pods_KeyBoardProblemTests.framework */; };
+		DD46F4DC5F9A063072FF5CAC /* Pods_KeyBoardProblem_KeyBoardProblemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9FF736C83CD36B7EED401B /* Pods_KeyBoardProblem_KeyBoardProblemUITests.framework */; };
+		F255F115F92A486090F10746 /* Pods_KeyBoardProblem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FCE2C9CB8CB76B029A7FDD /* Pods_KeyBoardProblem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15B0533FC12FEA39EE45342C /* Pods-KeyBoardProblem-KeyBoardProblemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblem-KeyBoardProblemUITests.debug.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblem-KeyBoardProblemUITests/Pods-KeyBoardProblem-KeyBoardProblemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		25B9A5772AFCDB430090C052 /* KeyBoardProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B9A57A2AFCDB430090C052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B9A57C2AFCDB430090C052 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		25B9A5972AFCDB450090C052 /* KeyBoardProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B9A59B2AFCDB450090C052 /* KeyBoardProblemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardProblemUITests.swift; sourceTree = "<group>"; };
 		25B9A59D2AFCDB450090C052 /* KeyBoardProblemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardProblemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25B9A5AA2AFCDC790090C052 /* TSStackViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSStackViewCell.swift; sourceTree = "<group>"; };
+		25B9A5AC2AFCDC8D0090C052 /* TSNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSNormalCell.swift; sourceTree = "<group>"; };
+		25B9A5AE2AFCDCA20090C052 /* TSEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSEmptyCell.swift; sourceTree = "<group>"; };
+		2B9FF736C83CD36B7EED401B /* Pods_KeyBoardProblem_KeyBoardProblemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardProblem_KeyBoardProblemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B5F5F3A27438AC345D366D /* Pods-KeyBoardProblem-KeyBoardProblemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblem-KeyBoardProblemUITests.release.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblem-KeyBoardProblemUITests/Pods-KeyBoardProblem-KeyBoardProblemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		690E82EEE94EF7A32D2A3FA5 /* Pods_KeyBoardProblemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardProblemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8718BDA128F79B81C42A5513 /* Pods-KeyBoardProblemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblemTests.release.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblemTests/Pods-KeyBoardProblemTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1003254C0863B4A22F1CAD5 /* Pods-KeyBoardProblem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblem.debug.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblem/Pods-KeyBoardProblem.debug.xcconfig"; sourceTree = "<group>"; };
+		DF88F26520D8730217E4CD66 /* Pods-KeyBoardProblem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblem.release.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblem/Pods-KeyBoardProblem.release.xcconfig"; sourceTree = "<group>"; };
+		F2FCE2C9CB8CB76B029A7FDD /* Pods_KeyBoardProblem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyBoardProblem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5546B4E9F9360DC7AD0F45 /* Pods-KeyBoardProblemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyBoardProblemTests.debug.xcconfig"; path = "Target Support Files/Pods-KeyBoardProblemTests/Pods-KeyBoardProblemTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F255F115F92A486090F10746 /* Pods_KeyBoardProblem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B96856E745BE6AF4635555 /* Pods_KeyBoardProblemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD46F4DC5F9A063072FF5CAC /* Pods_KeyBoardProblem_KeyBoardProblemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				25B9A5902AFCDB450090C052 /* KeyBoardProblemTests */,
 				25B9A59A2AFCDB450090C052 /* KeyBoardProblemUITests */,
 				25B9A5782AFCDB430090C052 /* Products */,
+				5B0AFE736B48D972D69E1EE1 /* Pods */,
+				DD7B1693E56C1FE736228219 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +125,9 @@
 				25B9A57A2AFCDB430090C052 /* AppDelegate.swift */,
 				25B9A57C2AFCDB430090C052 /* SceneDelegate.swift */,
 				25B9A57E2AFCDB430090C052 /* ViewController.swift */,
+				25B9A5AA2AFCDC790090C052 /* TSStackViewCell.swift */,
+				25B9A5AC2AFCDC8D0090C052 /* TSNormalCell.swift */,
+				25B9A5AE2AFCDCA20090C052 /* TSEmptyCell.swift */,
 				25B9A5802AFCDB430090C052 /* Main.storyboard */,
 				25B9A5832AFCDB450090C052 /* Assets.xcassets */,
 				25B9A5852AFCDB450090C052 /* LaunchScreen.storyboard */,
@@ -127,6 +153,29 @@
 			path = KeyBoardProblemUITests;
 			sourceTree = "<group>";
 		};
+		5B0AFE736B48D972D69E1EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1003254C0863B4A22F1CAD5 /* Pods-KeyBoardProblem.debug.xcconfig */,
+				DF88F26520D8730217E4CD66 /* Pods-KeyBoardProblem.release.xcconfig */,
+				15B0533FC12FEA39EE45342C /* Pods-KeyBoardProblem-KeyBoardProblemUITests.debug.xcconfig */,
+				57B5F5F3A27438AC345D366D /* Pods-KeyBoardProblem-KeyBoardProblemUITests.release.xcconfig */,
+				FC5546B4E9F9360DC7AD0F45 /* Pods-KeyBoardProblemTests.debug.xcconfig */,
+				8718BDA128F79B81C42A5513 /* Pods-KeyBoardProblemTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD7B1693E56C1FE736228219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2FCE2C9CB8CB76B029A7FDD /* Pods_KeyBoardProblem.framework */,
+				2B9FF736C83CD36B7EED401B /* Pods_KeyBoardProblem_KeyBoardProblemUITests.framework */,
+				690E82EEE94EF7A32D2A3FA5 /* Pods_KeyBoardProblemTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25B9A5A12AFCDB450090C052 /* Build configuration list for PBXNativeTarget "KeyBoardProblem" */;
 			buildPhases = (
+				7202D6457CB1865F8DE78C61 /* [CP] Check Pods Manifest.lock */,
 				25B9A5732AFCDB430090C052 /* Sources */,
 				25B9A5742AFCDB430090C052 /* Frameworks */,
 				25B9A5752AFCDB430090C052 /* Resources */,
+				312948B051C7542C64038615 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25B9A5A42AFCDB450090C052 /* Build configuration list for PBXNativeTarget "KeyBoardProblemTests" */;
 			buildPhases = (
+				8DE497815E07545FC73DB0CB /* [CP] Check Pods Manifest.lock */,
 				25B9A5892AFCDB450090C052 /* Sources */,
 				25B9A58A2AFCDB450090C052 /* Frameworks */,
 				25B9A58B2AFCDB450090C052 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25B9A5A72AFCDB450090C052 /* Build configuration list for PBXNativeTarget "KeyBoardProblemUITests" */;
 			buildPhases = (
+				AC3B40643AF8F674350C1FF7 /* [CP] Check Pods Manifest.lock */,
 				25B9A5932AFCDB450090C052 /* Sources */,
 				25B9A5942AFCDB450090C052 /* Frameworks */,
 				25B9A5952AFCDB450090C052 /* Resources */,
+				CBC15E0054ED50E9519146CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +307,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		312948B051C7542C64038615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem/Pods-KeyBoardProblem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem/Pods-KeyBoardProblem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem/Pods-KeyBoardProblem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7202D6457CB1865F8DE78C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardProblem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE497815E07545FC73DB0CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardProblemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3B40643AF8F674350C1FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyBoardProblem-KeyBoardProblemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC15E0054ED50E9519146CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem-KeyBoardProblemUITests/Pods-KeyBoardProblem-KeyBoardProblemUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem-KeyBoardProblemUITests/Pods-KeyBoardProblem-KeyBoardProblemUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyBoardProblem-KeyBoardProblemUITests/Pods-KeyBoardProblem-KeyBoardProblemUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25B9A5732AFCDB430090C052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B9A5AB2AFCDC790090C052 /* TSStackViewCell.swift in Sources */,
+				25B9A5AD2AFCDC8D0090C052 /* TSNormalCell.swift in Sources */,
 				25B9A57F2AFCDB430090C052 /* ViewController.swift in Sources */,
 				25B9A57B2AFCDB430090C052 /* AppDelegate.swift in Sources */,
+				25B9A5AF2AFCDCA20090C052 /* TSEmptyCell.swift in Sources */,
 				25B9A57D2AFCDB430090C052 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,11 +597,13 @@
 		};
 		25B9A5A22AFCDB450090C052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1003254C0863B4A22F1CAD5 /* Pods-KeyBoardProblem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyBoardProblem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,6 +611,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,11 +627,13 @@
 		};
 		25B9A5A32AFCDB450090C052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF88F26520D8730217E4CD66 /* Pods-KeyBoardProblem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyBoardProblem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,6 +641,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +657,7 @@
 		};
 		25B9A5A52AFCDB450090C052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5546B4E9F9360DC7AD0F45 /* Pods-KeyBoardProblemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +677,7 @@
 		};
 		25B9A5A62AFCDB450090C052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8718BDA128F79B81C42A5513 /* Pods-KeyBoardProblemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +697,7 @@
 		};
 		25B9A5A82AFCDB450090C052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B0533FC12FEA39EE45342C /* Pods-KeyBoardProblem-KeyBoardProblemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +715,7 @@
 		};
 		25B9A5A92AFCDB450090C052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B5F5F3A27438AC345D366D /* Pods-KeyBoardProblem-KeyBoardProblemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
